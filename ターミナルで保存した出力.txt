@@ -1,0 +1,75 @@
+Last login: Mon Oct 14 12:18:47 on ttys000
+shimauma@shimaumanoMacBook-Pro ~ % cd desktop
+shimauma@shimaumanoMacBook-Pro desktop % ls  
+240718_6_minute_english_AI_and_animal_testing.pdf
+AW
+~$紹介シート Word版.pdf
+スクリーンショット 2024-09-01 17.52.38.png
+スクリーンショット 2024-09-01 18.09.37.png
+スクリーンショット 2024-09-02 10.44.19.png
+スクリーンショット 2024-09-09 12.27.11.png
+スクリーンショット 2024-09-09 13.53.22.png
+スクリーンショット 2024-09-26 22.05.50.png
+スクリーンショット 2024-09-26 22.08.10.png
+スクリーンショット 2024-09-27 0.23.46.png
+スクリーンショット 2024-09-27 13.37.26.png
+スクリーンショット 2024-09-28 20.16.18.png
+スクリーンショット 2024-09-28 20.31.47.png
+スクリーンショット 2024-09-28 20.52.59.png
+スクリーンショット 2024-09-28 20.53.16.png
+スクリーンショット 2024-09-28 20.54.53.png
+スクリーンショット 2024-09-28 20.58.54.png
+スクリーンショット 2024-09-28 21.43.07.png
+スクリーンショット 2024-09-29 10.24.49.png
+スクリーンショット 2024-09-29 14.24.51.png
+スクリーンショット 2024-09-29 14.31.01.png
+スクリーンショット 2024-09-29 14.39.40.png
+スクリーンショット 2024-09-29 15.28.12.png
+スクリーンショット 2024-09-29 8.59.19.png
+スクリーンショット 2024-10-01 10.37.17.png
+スクリーンショット 2024-10-01 10.37.22.png
+スクリーンショット 2024-10-01 13.26.17.png
+スクリーンショット 2024-10-01 13.30.50.png
+スクリーンショット 2024-10-01 13.31.56.png
+shimauma@shimaumanoMacBook-Pro desktop %  ssh-keygen
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/shimauma/.ssh/id_ed25519): 
+Created directory '/Users/shimauma/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/shimauma/.ssh/id_ed25519
+Your public key has been saved in /Users/shimauma/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:Tzg5HhLg9rWzMNQavmwO2jtpFn06tc1LYUQgfSZ0kDA shimauma@shimaumanoMacBook-Pro.local
+The key's randomart image is:
++--[ED25519 256]--+
+|    . E+++o      |
+|   . . ++oo      |
+|    o + o+.      |
+|   . + = =       |
+|     .B S +      |
+|    ...*oX .     |
+|    .o++o+o      |
+|   o=+o ..o      |
+|  .ooo..  ..     |
++----[SHA256]-----+
+shimauma@shimaumanoMacBook-Pro desktop % cat/Users/shimauma/.ssh/id_ed25519.pub
+zsh: no such file or directory: cat/Users/shimauma/.ssh/id_ed25519.pub
+shimauma@shimaumanoMacBook-Pro desktop % cat /Users/shimauma/.ssh/id_ed25519.pub 
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICdVWhG396V364DgtfjaYyeMiRJs6omJuLoIjDWIwCyb shimauma@shimaumanoMacBook-Pro.local
+shimauma@shimaumanoMacBook-Pro desktop % git@github.com:kushiii0000/first_workplace.git
+zsh: no such file or directory: git@github.com:kushiii0000/first_workplace.git
+shimauma@shimaumanoMacBook-Pro desktop % git clone git@github.com:kushiii0000/first_workplace.git
+Cloning into 'first_workplace'...
+The authenticity of host 'github.com (20.27.177.113)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enter passphrase for key '/Users/shimauma/.ssh/id_ed25519': 
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+shimauma@shimaumanoMacBook-Pro desktop % 
